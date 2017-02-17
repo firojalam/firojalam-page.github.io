@@ -8,4 +8,4 @@ categories: blog
 
 [It's me]({{ site.url }}/assets/images/firoj_pic.jpg)
 
-[Algorithms]({{ site.url }}/assets/algorithms.pdf)
+[Algorithms]({{ site.url }}/assets/files/algorithms.pdf)

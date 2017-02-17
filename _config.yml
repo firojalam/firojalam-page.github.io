@@ -9,7 +9,7 @@
 #gems: ['jekyll-github-metadata']
 # theme: minimal-mistakes-jekyll
 locale                   : "en"
-title                    : "Can life would be beautiful with AI...?"
+title                    : "Exploring human conversations to advance AI technologies...?"
 title_separator          : "-"
 name                     : "Firoj Alam"
 description              : "Advancing AI -> NLP, Machine Learning, Deep Learning."
@@ -80,23 +80,23 @@ analytics:
 # Site Author
 author:
   name             : "Firoj Alam"
-  avatar           : assets/images/bfiroj_pic.jpg #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : assets/images/firoj_pic.jpg #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Researcher for Advancing AI technologies.."
   location         : "Somewhere on Earth"
   email            :
   uri              : http://sites.google.com/site/firojalam/
-  bitbucket        : http://bitbucket.org/firojalam/
+  bitbucket        : firojalam
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : http://github.com/firojalam
+  github           : firojalam
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : linkedin.com/in/firoj-alam-0a96206
+  linkedin         : firoj-alam-0a96206
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
