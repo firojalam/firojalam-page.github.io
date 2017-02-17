@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-gems: ['jekyll-github-metadata']
-theme: minimal-mistakes-jekyll
+#gems: ['jekyll-github-metadata']
+# theme: minimal-mistakes-jekyll
 locale                   : "en"
 title                    : "Can life would be beautiful with AI...?"
 title_separator          : "-"
@@ -16,7 +16,7 @@ description              : "Advancing AI -> NLP, Machine Learning, Deep Learning
 url                      : https://firojalam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : firojalam/firojalam.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/firoj_pic.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/banner.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -80,9 +80,9 @@ analytics:
 # Site Author
 author:
   name             : "Firoj Alam"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : assets/images/bfiroj_pic.jpg #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Researcher for Advancing AI technologies.."
-  location         : "Somewhere in Earth"
+  location         : "Somewhere on Earth"
   email            :
   uri              : http://sites.google.com/site/firojalam/
   bitbucket        : http://bitbucket.org/firojalam/
@@ -246,3 +246,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
