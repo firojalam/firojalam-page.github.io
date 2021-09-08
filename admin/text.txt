@@ -1,0 +1,36 @@
+
+
+  #               : " "
+  #          : "Doha, Qatar"
+  #          : 
+  #            : 
+  #     : "https://scholar.google.it/citations?user=j-RtwDQAAAAJ&hl=en&oi=ao"
+  #             :
+  # researchgate     :  "https://www.researchgate.net/profile/Firoj-Alam"
+  # uri              :
+  # bitbucket        : 'firojalam'
+  # codepen          :
+  # dribbble         :
+  #            :
+  # facebook         :
+  # foursquare       :
+  # github           : "firojalam"
+  # google_plus      :
+  # keybase          :
+  # instagram        :
+  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  # lastfm           :
+  # linkedin         : 'firoj-alam-0a96206'
+  # orcid            : 
+  # pinterest        :
+  # soundcloud       :
+  # stackoverflow    : # http://stackoverflow.com/users/123456/username
+  # steam            :
+  # tumblr           :
+  # twitter          : "firojalam04"
+  # vine             :
+  # weibo            :
+  # xing             :
+  # youtube          :
+  # wikipedia        : 
+  # banglanlp        : 'https://banglanlp.org/our-team/'

@@ -5,7 +5,11 @@ backend:
   name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
   branch: master # Branch to update (master by default)
 
-media_folder: "assets/img/uploads" # Folder where user uploaded files should go
+# when using the default proxy server port
+local_backend: true
+
+
+media_folder: "assets/uploads" # Folder where user uploaded files should go
 
 publish_mode: editorial_workflow # Enable drafts
 
@@ -18,31 +22,120 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
-      - label: "Author"
-        name: "author"
-        widget: "select"
-        options:
-          - { label: "Dan Urbanowicz", value: "dan_urbanowicz" }
-          - { label: "John Doe", value: "john_doe" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Meta Description", name: "description", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
+      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
     # PAGES
   - name: "page"
     label: "Page"
-    folder: "pages"
+    folder: "_pages"
     sort: "title:asc"
     create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Meta Description", name: "description", widget: "text", required: false}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
+      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+  #resources
+  - name: "resources"
+    label: "Resources"
+    folder: "_resources"
+    sort: "title:asc"
+    create: true
+    slug: "resources/{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Meta Description", name: "mdescription", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
+      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+  #resources
+  - name: "research"
+    label: "Research"
+    folder: "_research"
+    sort: "title:asc"
+    create: true
+    slug: "research/{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Meta Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
+      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+  #Others
+  - name: others
+    label: Others
+    editor:
+      preview: false
+    files:
+      - file: _data/navigation.yml
+        label: Main Menus
+        name: main_menus
+        fields:
+          - label: Main menus
+            name: main_menus
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: "Path (example: /path/)", name: url, widget: string}
+      - file: _data/settings.yml
+        label: Settings
+        name: settings
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
+      #author information
+      - file: _data/author.yml
+        label: Author Information
+        name: author_information
+        fields:
+          - {label: "Full Name", name: "full_name", widget: "string", default: "Dr. Firoj Alam"}   
+          - {label: "Nickname (Show on header)", name: "nickname", widget: "string", default: "Dr. Firoj Alam"}      
+          - {label: "Avatar", name: "avatar", widget: "image", choose_url: false, default: "/assets/uploads/profile.png"}
+          - {label: "Bio", name: "bio", widget: "string", default: "Postdoctoral Researcher Qatar Computing Research Institute"}  
+          - {label: "Location", name: "location", widget: "string", default: ""}  
+          - {label: "Employer", name: "employer", widget: "string", default: ""}  
+          - {label: "Pubmed (full url)", name: "pubmed", widget: "string", default: ""}  
+          - {label: "Googlescholar (full url)", name: "googlescholar", widget: "string", default: ""}  
+          - {label: "Email", name: "email", widget: "string", default: ""}  
+          - {label: "Researchgate (full url)", name: "researchgate", widget: "string", default: ""}  
+          - {label: "Uri", name: "uri", widget: "string", default: ""}  
+          - {label: "Bitbucket", name: "bitbucket", widget: "string", default: ""}  
+          - {label: "Codepen", name: "codepen", widget: "string", default: ""}  
+          - {label: "Dribbble", name: "dribbble", widget: "string", default: ""}  
+          - {label: "Flickr", name: "flickr", widget: "string", default: ""}  
+          - {label: "Facebook", name: "facebook", widget: "string", default: ""}  
+          - {label: "Foursquare", name: "foursquare", widget: "string", default: ""}  
+          - {label: "Github", name: "github", widget: "string", default: ""}  
+          - {label: "Google_plus", name: "google_plus", widget: "string", default: ""}  
+          - {label: "Keybase", name: "keybase", widget: "string", default: ""}  
+          - {label: "Instagram", name: "instagram", widget: "string", default: ""}  
+          - {label: "Impactstory (Full url)", name: "impactstory", widget: "string", default: ""}  
+          - {label: "Lastfm", name: "lastfm", widget: "string", default: ""}  
+          - {label: "Linkedin", name: "linkedin", widget: "string", default: ""}  
+          - {label: "Orcid", name: "orcid", widget: "string", default: ""}  
+          - {label: "Pinterest", name: "pinterest", widget: "string", default: ""}  
+          - {label: "Soundcloud", name: "soundcloud", widget: "string", default: ""}  
+          - {label: "Stackoverflow (Full)", name: "stackoverflow", widget: "string", default: ""}  
+          - {label: "Steam", name: "steam", widget: "string", default: ""}  
+          - {label: "Tumblr", name: "tumblr", widget: "string", default: ""}  
+          - {label: "Twitter", name: "twitter", widget: "string", default: ""}  
+          - {label: "Vine", name: "vine", widget: "string", default: ""}  
+          - {label: "Youtube", name: "youtube", widget: "string", default: ""}  
+          - {label: "Wikipedia", name: "wikipedia", widget: "string", default: ""}  
+          - {label: "Banglanlp (Full url)", name: "banglanlp", widget: "string", default: ""}  
+        
+          
+  
