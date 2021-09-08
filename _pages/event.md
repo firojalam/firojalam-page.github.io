@@ -1,10 +1,17 @@
 ---
 layout: archive
-permalink: /year-archive/
-title: "Blog posts"
+permalink: /events/
+title: "Community Service"
 author_profile: true
 redirect_from:
-  - /wordpress/blog-posts/
+  - /blog.html
+  - /blog/
+  - /article/
+  - /article.thml
+  - /posts/
+  - /posts.html
+  - /docs/
+  - /docs.html
 ---
 
 {% include base_path %}

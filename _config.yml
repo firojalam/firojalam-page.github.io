@@ -11,7 +11,8 @@ title                    : "Dr. Firoj Alam"
 title_separator          : "-"
 name                     : &name "firojalam"
 description              : &description "personal description"
-url                      : https://firojalam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                      : https://firojalam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : 'http://127.0.0.1:4000' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "firojalam/firojalam.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -176,19 +177,12 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  resources:
     output: true
     permalink: /:collection/:path/
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -199,10 +193,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
       share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -213,7 +204,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: resources
     values:
       layout: single
       author_profile: true
@@ -222,29 +213,12 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
