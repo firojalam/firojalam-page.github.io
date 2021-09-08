@@ -64,7 +64,7 @@ The Design of Computational models for Analyzing Personality and Affective Behav
 
 <hr/>
 
-### (Interesting demos)[#interesting-demos]
+### [Interesting Demos](#interesting-demos)
 
 <figure class="half">
     <a href="#analysis-and-summarisation-of-spoken-conversations">
