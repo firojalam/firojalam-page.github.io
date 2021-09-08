@@ -23,13 +23,41 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Meta Description", name: "description", widget: "text", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
-      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Meta Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD HH:mm:ss",
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Show Author Profile",
+          name: "author_profile",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
+      - {
+          label: "Show Share Buttons",
+          name: "share",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
     # PAGES
   - name: "page"
     label: "Page"
@@ -38,13 +66,36 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Meta Description", name: "description", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
-      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Meta Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Permalink", name: "permalink", widget: "hidden" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Show Author Profile",
+          name: "author_profile",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
+      - {
+          label: "Show Share Buttons",
+          name: "share",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
   #resources
   - name: "resources"
     label: "Resources"
@@ -53,13 +104,36 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     slug: "resources/{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Meta Description", name: "mdescription", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
-      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Meta Description",
+          name: "mdescription",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Permalink", name: "permalink", widget: "hidden" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Show Author Profile",
+          name: "author_profile",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
+      - {
+          label: "Show Share Buttons",
+          name: "share",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
   #resources
   - name: "research"
     label: "Research"
@@ -68,13 +142,30 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     slug: "research/{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Meta Description", name: "description", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Show Author Profile", name: "author_profile", widget: "boolean", default: true, required: true}
-      - {label: "Show Share Buttons", name: "share", widget: "boolean", default: true, required: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - {
+          label: "Meta Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Permalink", name: "permalink", widget: "hidden" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Show Author Profile",
+          name: "author_profile",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
+      - {
+          label: "Show Share Buttons",
+          name: "share",
+          widget: "boolean",
+          default: true,
+          required: true,
+        }
   #Others
   - name: others
     label: Others
@@ -89,54 +180,263 @@ collections: # A list of collections the CMS should be able to edit
             name: main_menus
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: "Path (example: /path/)", name: url, widget: string}
+              - { label: Title, name: title, widget: string }
+              - { label: "Path (example: /path/)", name: url, widget: string }
       - file: _data/settings.yml
         label: Settings
         name: settings
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
-      #author information
-      - file: _data/author.yml
-        label: Author Information
-        name: author_information
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "string",
+              required: false,
+            }
+      #author profile information
+      - file: _data/profile.yml
+        label: Profile
+        name: my_profile
         fields:
-          - {label: "Full Name", name: "full_name", widget: "string", default: "Dr. Firoj Alam"}   
-          - {label: "Nickname (Show on header)", name: "nickname", widget: "string", default: "Dr. Firoj Alam"}      
-          - {label: "Avatar", name: "avatar", widget: "image", choose_url: false, default: "/assets/uploads/profile.png"}
-          - {label: "Bio", name: "bio", widget: "string", default: "Postdoctoral Researcher Qatar Computing Research Institute"}  
-          - {label: "Location", name: "location", widget: "string", default: ""}  
-          - {label: "Employer", name: "employer", widget: "string", default: ""}  
-          - {label: "Pubmed (full url)", name: "pubmed", widget: "string", default: ""}  
-          - {label: "Googlescholar (full url)", name: "googlescholar", widget: "string", default: ""}  
-          - {label: "Email", name: "email", widget: "string", default: ""}  
-          - {label: "Researchgate (full url)", name: "researchgate", widget: "string", default: ""}  
-          - {label: "Uri", name: "uri", widget: "string", default: ""}  
-          - {label: "Bitbucket", name: "bitbucket", widget: "string", default: ""}  
-          - {label: "Codepen", name: "codepen", widget: "string", default: ""}  
-          - {label: "Dribbble", name: "dribbble", widget: "string", default: ""}  
-          - {label: "Flickr", name: "flickr", widget: "string", default: ""}  
-          - {label: "Facebook", name: "facebook", widget: "string", default: ""}  
-          - {label: "Foursquare", name: "foursquare", widget: "string", default: ""}  
-          - {label: "Github", name: "github", widget: "string", default: ""}  
-          - {label: "Google_plus", name: "google_plus", widget: "string", default: ""}  
-          - {label: "Keybase", name: "keybase", widget: "string", default: ""}  
-          - {label: "Instagram", name: "instagram", widget: "string", default: ""}  
-          - {label: "Impactstory (Full url)", name: "impactstory", widget: "string", default: ""}  
-          - {label: "Lastfm", name: "lastfm", widget: "string", default: ""}  
-          - {label: "Linkedin", name: "linkedin", widget: "string", default: ""}  
-          - {label: "Orcid", name: "orcid", widget: "string", default: ""}  
-          - {label: "Pinterest", name: "pinterest", widget: "string", default: ""}  
-          - {label: "Soundcloud", name: "soundcloud", widget: "string", default: ""}  
-          - {label: "Stackoverflow (Full)", name: "stackoverflow", widget: "string", default: ""}  
-          - {label: "Steam", name: "steam", widget: "string", default: ""}  
-          - {label: "Tumblr", name: "tumblr", widget: "string", default: ""}  
-          - {label: "Twitter", name: "twitter", widget: "string", default: ""}  
-          - {label: "Vine", name: "vine", widget: "string", default: ""}  
-          - {label: "Youtube", name: "youtube", widget: "string", default: ""}  
-          - {label: "Wikipedia", name: "wikipedia", widget: "string", default: ""}  
-          - {label: "Banglanlp (Full url)", name: "banglanlp", widget: "string", default: ""}  
-        
-          
-  
+          - {
+              label: "Full Name",
+              name: "full_name",
+              widget: "string",
+              default: "Dr. Firoj Alam",
+            }
+          - {
+              label: "Nickname (Show on header)",
+              name: "nickname",
+              widget: "string",
+              default: "Dr. Firoj Alam",
+            }
+          - {
+              label: "Avatar",
+              name: "avatar",
+              widget: "image",
+              choose_url: false,
+              default: "/assets/uploads/profile.png",
+            }
+          - {
+              label: "Bio",
+              name: "bio",
+              widget: "string",
+              default: "Postdoctoral Researcher Qatar Computing Research Institute",
+            }
+          - {
+              label: "Location",
+              name: "location",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Employer",
+              name: "employer",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Pubmed (full url)",
+              name: "pubmed",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Googlescholar (full url)",
+              name: "googlescholar",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Email",
+              name: "email",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Researchgate (full url)",
+              name: "researchgate",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Uri",
+              name: "uri",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Bitbucket",
+              name: "bitbucket",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Codepen",
+              name: "codepen",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Dribbble",
+              name: "dribbble",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Flickr",
+              name: "flickr",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Facebook",
+              name: "facebook",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Foursquare",
+              name: "foursquare",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Github",
+              name: "github",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Google_plus",
+              name: "google_plus",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Keybase",
+              name: "keybase",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Instagram",
+              name: "instagram",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Impactstory (Full url)",
+              name: "impactstory",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Lastfm",
+              name: "lastfm",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Linkedin",
+              name: "linkedin",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Orcid",
+              name: "orcid",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Pinterest",
+              name: "pinterest",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Soundcloud",
+              name: "soundcloud",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Stackoverflow (Full)",
+              name: "stackoverflow",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Steam",
+              name: "steam",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Tumblr",
+              name: "tumblr",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Twitter",
+              name: "twitter",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Vine",
+              name: "vine",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Youtube",
+              name: "youtube",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Wikipedia",
+              name: "wikipedia",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
+          - {
+              label: "Banglanlp (Full url)",
+              name: "banglanlp",
+              widget: "string",
+              default: " ",
+              required: false,
+            }
