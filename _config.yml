@@ -151,6 +151,9 @@ kramdown:
 
 # Collections
 collections:
+  posts:
+    output: true
+    permalink: /events/:slug/
   resources:
     output: true
     permalink: /:collection/:path/

@@ -1,13 +1,8 @@
 ---
 layout: archive
 title: "Experiences"
-permalink: /professional-experiences/
+permalink: /experiences/
 author_profile: true
-redirect_from: 
-  - /professional.html
-  - /professional/
-  - /experiences.html
-  - /experiences/
 ---
 
 ## [Research/Professional Experience](#research-professional-experience)
