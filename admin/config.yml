@@ -174,10 +174,10 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: _data/navigation.yml
         label: Main Menus
-        name: main_menus
+        name: main-menus
         fields:
           - label: Main menus
-            name: main_menus
+            name: main-menus
             widget: list
             fields:
               - { label: Title, name: title, widget: string }
@@ -196,17 +196,11 @@ collections: # A list of collections the CMS should be able to edit
       #author profile information
       - file: _data/profile.yml
         label: Profile
-        name: my_profile
+        name: my-profile
         fields:
           - {
               label: "Full Name",
               name: "full_name",
-              widget: "string",
-              default: "Dr. Firoj Alam",
-            }
-          - {
-              label: "Nickname (Show on header)",
-              name: "nickname",
               widget: "string",
               default: "Dr. Firoj Alam",
             }
