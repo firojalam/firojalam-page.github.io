@@ -16,7 +16,7 @@ main:
     url: /resources/
         
   - title: "Blog Posts"
-    url: /blog/
+    url: /events/
 
   - title: "Travel"
     url: /travel/
