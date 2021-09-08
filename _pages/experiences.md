@@ -10,16 +10,14 @@ redirect_from:
   - /experiences/
 ---
 
-[](#h.p_ID_32)
+## [Research/Professional Experience](#research-professional-experience)
 
-Research/Professional Experience
-
-**Scientist,** [Qatar Computing Research Institute](http://www.google.com/url?q=http%3A%2F%2Fqcri.com&sa=D&sntz=1&usg=AFQjCNG4NN8h2FDl7NDtAGESvjl8zF-igQ), Qatar, Oct-2019 to Present
+**Scientist,** [Qatar Computing Research Institute](https://www.hbku.edu.qa/en/qcri), Qatar, Oct-2019 to Present
 
 *   Disinformation in Social Media (http://tanbih.qcri.org)
     
 
-**Post-Doctoral Researcher,** [Qatar Computing Research Institute](http://www.google.com/url?q=http%3A%2F%2Fqcri.com&sa=D&sntz=1&usg=AFQjCNG4NN8h2FDl7NDtAGESvjl8zF-igQ), Qatar, Feb-2018 to Sept-2019
+**Post-Doctoral Researcher,** [Qatar Computing Research Institute](https://www.hbku.edu.qa/en/qcri), Qatar, Feb-2018 to Sept-2019
 
 *   CrisisDPS (http://crisisdps.qcri.org/)
     
@@ -30,11 +28,11 @@ Research/Professional Experience
 *   Investigating how multimodality (text and image) can help in crisis computing
     
 
-**Research Associate,** [Qatar Computing Research Institute](http://www.google.com/url?q=http%3A%2F%2Fqcri.com&sa=D&sntz=1&usg=AFQjCNG4NN8h2FDl7NDtAGESvjl8zF-igQ), Qatar, Sept-2016 to Jan - 2018
+**Research Associate,** [Qatar Computing Research Institute](https://www.hbku.edu.qa/en/qcri), Qatar, Sept-2016 to Jan - 2018
 
 \- Developed Image Processing Pipeline into AIDR system
 
-**PhD Research** , [SIS Lab](http://www.google.com/url?q=http%3A%2F%2Fsisl.disi.unitn.it&sa=D&sntz=1&usg=AFQjCNFKyKv-3r9CIOvSHbg_ZC8Oanwzhw), [University of Trento](http://www.google.com/url?q=http%3A%2F%2Fict.unitn.it&sa=D&sntz=1&usg=AFQjCNF4sdgmPg8lxsT7wKTcG2RjUYR5ZQ), Italy. Nov-2011 to Dec-2016.
+**PhD Research** , [SIS Lab](http://sisl.disi.unitn.it/), [University of Trento](https://ict.unitn.it/), Italy. Nov-2011 to Dec-2016.
 
 *   **Segmenting Emotional Episodes:** Currently working on the problem of segmenting and classifying emotional episodes in conversations. In a call center conversation, a client might be angry at some point of the conversation and perhaps after certain time he/she might be happy or shows satisfactory expressions. In my research, I am trying to automatically segment these temporal emotional phenomena using machine-learning approaches.
     
@@ -46,7 +44,7 @@ Research/Professional Experience
     
 *   Open Source Tools (e.g., Personality traits scorer, LOSO-split, LIWC-web-client using Java and Python).
     
-*   **Research Intern**, [HLT Unit](http://www.google.com/url?q=http%3A%2F%2Fhlt.fbk.eu&sa=D&sntz=1&usg=AFQjCNEknR0bb3MocmSIdiNoFWhJkl-pdQ), [Fondazione Bruno Kessler (FBK-irst)](http://www.google.com/url?q=http%3A%2F%2Fwww.fbk.eu&sa=D&sntz=1&usg=AFQjCNEEh3CKs9CmnCuRCc50F3h79DZHuw), Trento, Italy. June 2011 – October 2011.
+*   **Research Intern**, [HLT Unit](https://hlt.fbk.eu/), [Fondazione Bruno Kessler (FBK-irst)](https://www.fbk.eu/en/), Trento, Italy. June 2011 – October 2011.
     
 *   **Designed** Named Entity Recognition System for broadcast news transcription, which also works for newspaper text.
     
@@ -60,18 +58,15 @@ Research/Professional Experience
 
 **Research Programmer**, Center for Research on Bangla Language Processing (CRBLP), Department of Computer Science and Engineering, BRAC University. September 2006 to July 2010.
 
-*   **Developed** the first [Bangla Text to Speech system](http://www.google.com/url?q=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fblp%2Ffiles%2FKatha_Bangla_TTS%2F&sa=D&sntz=1&usg=AFQjCNFPqLA2w0yZILnMMKONqijJ10DCQQ).
+*   **Developed** the first [Bangla Text to Speech system](https://sourceforge.net/projects/blp/files/Katha_Bangla_TTS/).
     
-*   **Contributed to other** [**projects**](http://www.google.com/url?q=http%3A%2F%2Ffaculty.bracu.ac.bd%2F~firoj%2F%23researchproject&sa=D&sntz=1&usg=AFQjCNF6PbHpqYY_ElIg6ApJMfIlt4zdEQ): Pronunciation dictionary, Wordnet, Lexicon, Speech Corpora, etc. Most of these projects were funded by [International Development Research Center (IDRC)](http://www.google.com/url?q=http%3A%2F%2Fidrc.ca%2F&sa=D&sntz=1&usg=AFQjCNGU2H1CZpe884pJLTBRSqzgfxicsg) of Canada under its [PAN Localization Network (PanL10n)](http://www.google.com/url?q=http%3A%2F%2Fpanl10n.net%2F&sa=D&sntz=1&usg=AFQjCNEj_W8W7ZIYJS2XB98nnLGo-o0aHA) program.
+*   **Contributed to other** [**projects**](http://faculty.bracu.ac.bd/~firoj/#researchproject): Pronunciation dictionary, Wordnet, Lexicon, Speech Corpora, etc. Most of these projects were funded by [International Development Research Center (IDRC)](https://idrc.ca/en) of Canada under its [PAN Localization Network (PanL10n)](https://panl10n.net/) program.
     
 *   **Contributed** to the Microsoft localization (Windows-Vista and Office-2007 interface) project.
     
 
-### 
+## [Professional Development](#professional-development)
 
-[](#h.p_ID_117)
-
-Professional Development
 
 *   Attended Sixth **Machine Translation Marathon**, Trento, Italy, September 5th-10th, 2011.
     
@@ -85,4 +80,4 @@ Professional Development
     
 *   Participated in 3rd summer school of ADD (**Asian Applied Natural Language Processing for Linguistics Diversity and Language Resource Development**) organized by TCL in Sirindhorn International Institute of Technology (SIIT), Pathumthani, Thailand, February 25 - March 2, 2008 \[Full financed by ADD\].
     
-*   Participated in [**Summer School in Asian Language Processing**](http://www.google.com/url?q=http%3A%2F%2Fwww.panl10n.net%2Fenglish%2Factivity_16.htm&sa=D&sntz=1&usg=AFQjCNHTM2n8Ovm4d5jKGs4JzmCw6a5WyQ), PAN Localization Project, Lahore, Pakistan. June – August 2006. Completed five graduate courses on NLP such as Phonetics & Phonology, Syntax & Morphology, Script Processing, Computational Linguistics and Speech Processing. Summer 2006.
+*   Participated in [**Summer School in Asian Language Processing**](https://www.panl10n.net/english/activity_16.htm), PAN Localization Project, Lahore, Pakistan. June – August 2006. Completed five graduate courses on NLP such as Phonetics & Phonology, Syntax & Morphology, Script Processing, Computational Linguistics and Speech Processing. Summer 2006.
