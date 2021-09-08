@@ -1,0 +1,90 @@
+I"f<p>My contributions go to the development of AI systems in the field of Fake news/Disinformation …</p>
+
+<p><strong>Research Interests:</strong></p>
+
+<ul>
+  <li>
+    <p><strong>Machine Learning/Deep Learning:</strong> Classical Algorithms (e.g., SVM, RF) to Deep Neural Network to solve supervised and semi-supervised problems.</p>
+  </li>
+  <li>
+    <p><strong>Applicative Contexts:</strong> Natural Language Processing, Behavioral and Social Signal Processing (Emotion, Personality traits) from Speech and Text; Social Media Text Analysis.</p>
+  </li>
+</ul>
+
+<p><strong>Short Bio:</strong> Currently working for QCRI, Qatar, as a Scientist. 
+I received my PhD in Computer Science from the <a href="https://ict.unitn.it/">University of Trento</a>, under the supervision of <a href="http://sisl.disi.unitn.it/team-member/giuseppe-riccardi/">Prof. Giuseppe Riccardi</a>, master’s from the same department, and undergrad from <a href="https://www.bracu.ac.bd/">BRAC University</a>.</p>
+
+<hr />
+
+<h3 id="my-interview-with-sage"><a href="#my-interview-with-sage">My interview with Sage</a></h3>
+
+<p><strong>Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief</strong>
+“I think most important is finding the problem that is important to solve for the community”</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><em><strong>Find me here:</strong></em> <a href="https://www.linkedin.com/in/firoj-alam-0a96206">LinkedIn</a></td>
+      <td><a href="https://scholar.google.it/citations?user=j-RtwDQAAAAJ&amp;hl=en&amp;oi=ao">Google-Scholar</a></td>
+      <td><a href="https://www.researchgate.net/profile/Firoj-Alam">Researchgate</a></td>
+      <td><a href="https://bitbucket.org/firojalam">Bitbucket</a></td>
+      <td><a href="https://github.com/firojalam">github</a></td>
+      <td><a href="https://banglanlp.org/our-team/"><em>Bangla NLP</em></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em><strong>Affliated member:</strong></em> <a href="https://ieeexplore.ieee.org/Xplore/home.jsp"><em>IEEE</em></a><em>,</em> <a href="https://www.aaai.org/"><em>AAAI</em></a><em>,</em> <a href="https://www.acm.org/"><em>ACM</em></a><em>,</em> <a href="https://www.isca-speech.org/iscaweb/"><em>ISCA</em></a><em>,</em> <a href="https://emotion-research.net/"><em>AAAC</em></a></p>
+
+<hr />
+
+<h3 id="my-interview-with-sage-1"><a href="#my-interview-with-sage">My interview with Sage</a></h3>
+
+<p>Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief</p>
+
+<video controls="" poster="/images/video-thum.jpg">
+  <source src="https://f12.cf.brightcove.com/3764097123001/3764097123001_5968267905001_5968265117001.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<blockquote>
+  <p>I think most important is finding the problem that is important to solve for the community</p>
+</blockquote>
+
+<h3 id="aidr-image-processing-pipeline"><a href="#aidr-image-processing-pipeline">AIDR Image Processing Pipeline</a></h3>
+
+<p><img src="/images/image_processing_pipeline.png" alt="AIDR Image Processing Pipeline" /></p>
+
+<p>A complete pipeline for crawling image to their classification.</p>
+<hr />
+
+<h3 id="phd-thesis"><a href="#phd-thesis">PhD Thesis</a></h3>
+
+<p><img src="/images/thesis.png" alt="" /></p>
+
+<p>The Design of Computational models for Analyzing Personality and Affective Behavioral Signals (particular focus on empathy) from speech and text</p>
+
+<ul>
+  <li>
+    <p>“Who expresses what emotional state when?”,</p>
+  </li>
+  <li>
+    <p>Conversation summarization with behavoiral descriptions in terms of emotion, topic and sentiment by utilizing NLP and Machine Learning techniques from spoken conversations and social media data. <a href="http://www.sensei-conversation.eu/">www.sensei-conversation.eu</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="interesting-demos"><a href="#interesting-demos">Interesting Demos</a></h3>
+
+<figure class="half">
+    <a href="#analysis-and-summarisation-of-spoken-conversations">
+      <iframe width="500" height="269" src="https://www.youtube.com/embed/I_6gde2OfcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      Analysis and Summarisation of Spoken Conversations
+    </a>
+    <a href="#analysis-and-summarization-of-social-media-conversations">
+      <iframe width="500" height="269" src="https://www.youtube.com/embed/XIMP0cuiZIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      Analysis and Summarization of Social Media Conversations
+    </a>
+</figure>
+:ET
