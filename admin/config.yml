@@ -8,7 +8,7 @@ backend:
 # when using the default proxy server port
 #local_backend: true
 
-display_url: https://affectionate-jennings-c95921.netlify.app
+display_url: http://firojalam.one
 
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 
