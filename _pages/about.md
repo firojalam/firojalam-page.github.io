@@ -3,8 +3,8 @@ permalink: /about/
 title: "About Me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /
+# redirect_from: 
+#   - /
 ---
 
 My contributions go to the development of AI systems in the field of Fake news/Disinformation ...
