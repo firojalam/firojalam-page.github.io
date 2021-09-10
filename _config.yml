@@ -56,10 +56,10 @@ analytics:
 author:
   name             : "Dr. Firoj Alam"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher Qatar Computing Research Institute "
+  bio              : "Scientist, Qatar Computing Research Institute "
   location         : "Doha, Qatar"
-  employer         : 
-  pubmed           : 
+  employer         :
+  pubmed           :
   googlescholar    : "https://scholar.google.it/citations?user=j-RtwDQAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Firoj-Alam"
@@ -77,7 +77,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : 'firoj-alam-0a96206'
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -88,7 +88,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  wikipedia        : 
+  wikipedia        :
   banglanlp        : 'https://banglanlp.org/our-team/'
 
 

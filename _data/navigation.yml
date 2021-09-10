@@ -7,19 +7,19 @@ main:
     url: /education/
 
   - title: "Experiences"
-    url: /experiences/    
-  
+    url: /experiences/
+
   - title: "Publications"
     url: /publications/
-     
+
   - title: "Research"
     url: /research/
-  
+
   - title: 'Resources'
     url: /resources/
-        
-  - title: "Posts"
-    url: /events/
 
-  - title: "Travel"
-    url: /travel/
+  - title: "News"
+    url: /news/
+
+  # - title: "Travel"
+  #   url: /travel/
