@@ -8,7 +8,7 @@ backend:
 # when using the default proxy server port
 #local_backend: true
 
-display_url: http://firojalam.one/admin/
+display_url: https://firojalam.one
 
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 
