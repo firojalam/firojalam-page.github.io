@@ -6,7 +6,7 @@ backend:
   branch: master # Branch to update (master by default)
 
 # when using the default proxy server port
-local_backend: true
+#local_backend: true
 
 display_url: https://affectionate-jennings-c95921.netlify.app
 
