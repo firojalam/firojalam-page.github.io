@@ -11,9 +11,8 @@ title                    : "Dr. Firoj Alam"
 title_separator          : "-"
 name                     : &name "firojalam"
 description              : &description "personal description"
-#url                      : https://firojalam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : '' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-# url                       : 'https://affectionate-jennings-c95921.netlify.app'
+url                      : 'http://firojalam.one' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                       : 'https://firojalam.netlify.app'
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "firojalam/firojalam.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
