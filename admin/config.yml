@@ -8,7 +8,7 @@ backend:
 # when using the default proxy server port
 #local_backend: true
 
-#display_url: https://firojalam.one
+display_url: https://firojalam.one
 
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 
@@ -166,6 +166,45 @@ collections: # A list of collections the CMS should be able to edit
           default: true,
           required: true,
         }
+  #resources
+  - name: "publications"
+    label: "publications"
+    folder: "_publications"
+    sort: "title:asc"
+    create: true
+    slug: "{{fields.year}}/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "select",
+          options:
+            [
+              "Book Chapters",
+              "Journal Publications",
+              "Conference/Workshop Publications",
+            ],
+        }
+      - { label: "Year", name: "year", widget: "date", format: "YYYY", date_format: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "list" }
+      - { label: "Journal", name: "journal", widget: "string", required: false }
+      - {
+          label: "Links",
+          name: "links",
+          collapsed: true,
+          widget: "object",
+          fields:
+            [
+              { label: "Url", name: "url", widget: "string", required: false },
+              { label: "pdf", name: "pdf", widget: "string", required: false },
+              { label: "code", name: "code", widget: "string", required: false },
+              { label: "github", name: "github", widget: "string", required: false },
+            ],
+        }
+
   #Others
   - name: others
     label: Others
