@@ -11,7 +11,7 @@ title                    : "Dr. Firoj Alam"
 title_separator          : "-"
 name                     : &name "firojalam"
 description              : &description "personal description"
-url                      : 'http://127.0.0.1:3000' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : '' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "firojalam/firojalam.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -148,6 +148,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -155,6 +156,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -162,3 +164,54 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+
+
+
+
+
+
+
+
+
+
+# Site Author
+author:
+  name             : "Dr. Firoj Alam"
+  avatar           : "profile.png"
+  bio              : "Scientist, Qatar Computing Research Institute "
+  location         : "Doha, Qatar"
+  employer         :
+  pubmed           :
+  googlescholar    : "https://scholar.google.it/citations?user=j-RtwDQAAAAJ&hl=en&oi=ao"
+  email            :
+  researchgate     :  "https://www.researchgate.net/profile/Firoj-Alam"
+  uri              :
+  bitbucket        : 'firojalam'
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "firojalam"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : 'firoj-alam-0a96206'
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "firojalam04"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+  banglanlp        : 'https://banglanlp.org/our-team/'
+
