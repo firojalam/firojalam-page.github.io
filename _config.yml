@@ -11,8 +11,7 @@ title                    : "Dr. Firoj Alam"
 title_separator          : "-"
 name                     : &name "firojalam"
 description              : &description "personal description"
-# url                      : 'http://firojalam.one' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                       : 'https://firojalam.one'
+url                      : 'http://127.0.0.1:3000' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "firojalam/firojalam.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -22,12 +21,6 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
 
 # Social Sharing
 twitter:
@@ -43,53 +36,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : 'UA-47497605-1'
-
-
-# Site Author
-author:
-  name             : "Dr. Firoj Alam"
-  avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher Qatar Computing Research Institute "
-  location         : "Doha, Qatar"
-  employer         : 
-  pubmed           : 
-  googlescholar    : "https://scholar.google.it/citations?user=j-RtwDQAAAAJ&hl=en&oi=ao"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Firoj-Alam"
-  uri              :
-  bitbucket        : 'firojalam'
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "firojalam"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : 'firoj-alam-0a96206'
-  orcid            : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "firojalam04"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        : 
-  banglanlp        : 'https://banglanlp.org/our-team/'
 
 
 # Reading Files
@@ -152,49 +98,38 @@ kramdown:
 collections:
   posts:
     output: true
-    permalink: /events/:slug/
+    permalink: /blog/:slug/
   resources:
-    output: true
+    output: false
     permalink: /:collection/:path/
   research:
-    output: true
+    output: false
     permalink: /:collection/:path/
-
+  publications:
+    output: false
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       share: true
-  # _pages
+  # _pages 
   - scope:
-      path: ""
+      path: "" # we can not defile path /blog/index.html for pagination
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: resources
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
-      path: ""
-      type: research
+      path: "_publications"
+      type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: none
 
 # Sass/SCSS
 sass:
@@ -202,12 +137,9 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
+paginate: 15 # amount of posts to show
+paginate_path: "/blog/page:num/"
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -223,36 +155,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
