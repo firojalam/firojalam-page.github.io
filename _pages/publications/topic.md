@@ -14,7 +14,7 @@ You can also find my articles on my
 * Indicates equal contribution.
 </p> 
 <a href="/publications/topic/"><button type="button" class="btn" style="outline:none">By Topic </button></a> 
-<a href="/publications/"><button type="button" class="btn" style="outline:none">By Year  </button></a> 
+<a href="/publications/year"><button type="button" class="btn" style="outline:none">By Year  </button></a> 
 
 <!-- Preprints -->
 <h3  class="pubyear">In the Pipeline</h3>

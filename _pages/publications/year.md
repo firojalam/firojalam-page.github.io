@@ -1,10 +1,13 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publications/
+permalink: /publications/year/
 author_profile: true
 years: [2020, 2019, 2018, 2016, 2015, 2013, 2012]
 toc: true 
+redirect_from:
+  - /publications.html
+  - /publications/
 ---
 
 <p> 
@@ -15,7 +18,7 @@ You can also find my articles on my
 * Indicates equal contribution.
 </p> 
 <a href="/publications/topic/"><button type="button" class="btn" style="outline:none">By Topic </button></a> 
-<a href="/publications/"><button type="button" class="btn" style="outline:none">By Year  </button></a> 
+<a href="/publications/year"><button type="button" class="btn" style="outline:none">By Year  </button></a> 
 
 <h3  class="pubyear">In the Pipeline</h3>
 {% bibliography -f prpr %}
