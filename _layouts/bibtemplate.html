@@ -1,7 +1,7 @@
 ---
 ---
 <!-- {{reference | replace_first: 'Firoj Alam', '<b>Firoj Alam</b>' | replace_first: 'Alam, Firoj ', '<b>Alam, Firoj</b>' }} -->
-{{reference | replace_first: 'Alam, A.', '<b>Alam, A.</b>' | replace_first: 'Alam*, A.', '<b>Alam*, A.</b>' }}
+{{reference | replace_first: 'Alam, F.', '<b>Alam, F.</b>' | replace_first: 'Alam*, F.', '<b>Alam*, F.</b>' }}
 
 
     <br/>
@@ -22,6 +22,17 @@
 	{% if entry.note %}
 	<a href="{{entry.note]}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">URL</button></a>
     {% endif %}
+
+  {% if entry.doi %}
+    <a href="{{entry.doi]}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">DOI</button></a>
+      {% endif %}
+
+      {% if entry.code %}
+        <a href="{{entry.code]}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">Code</button></a>
+      {% endif %}      
+      {% if entry.data %}
+        <a href="{{entry.data]}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">Data</button></a>
+      {% endif %}
 
 	<div class="dropDownBibtex" id="{{key}}-bibtex">
     <pre>{{entry.bibtex}}</pre>
