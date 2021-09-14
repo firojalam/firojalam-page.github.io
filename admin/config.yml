@@ -133,17 +133,10 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_research"
     sort: "title:asc"
     create: true
-    slug: "research/{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - {
-          label: "Meta Description",
-          name: "description",
-          widget: "text",
-          required: false,
-        }
-      - { label: "Permalink", name: "permalink", widget: "hidden" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - {
           label: "Show Author Profile",
