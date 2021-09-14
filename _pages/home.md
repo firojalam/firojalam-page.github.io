@@ -18,12 +18,8 @@ I received my PhD in Computer Science from the [University of Trento](https://ic
 
 <hr/>
 
-### [My interview with Sage](#my-interview-with-sage)
 
-**Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief**
-"I think most important is finding the problem that is important to solve for the community"
-
-_**Find me here:**_ [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}) | [Google-Scholar]({{ site.author.googlescholar }}) | [Researchgate]({{ site.author.researchgate }}) | [Bitbucket](https://bitbucket.org/{{ site.author.bitbucket }}) | [github](https://github.com/{{ site.author.github }}) | [_Bangla NLP_]({{ site.author.banglanlp }})
+<!-- _**Find me here:**_ [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}) | [Google-Scholar]({{ site.author.googlescholar }}) | [Researchgate]({{ site.author.researchgate }}) | [Bitbucket](https://bitbucket.org/{{ site.author.bitbucket }}) | [github](https://github.com/{{ site.author.github }}) | [_Bangla NLP_]({{ site.author.banglanlp }}) -->
 
 _**Affliated member:**_ [_IEEE_](https://ieeexplore.ieee.org/Xplore/home.jsp)_,_ [_AAAI_](https://www.aaai.org/)_,_ [_ACM_](https://www.acm.org/)_,_ [_ISCA_](https://www.isca-speech.org/iscaweb/)_,_ [_AAAC_](https://emotion-research.net/)
 
@@ -32,7 +28,8 @@ _**Affliated member:**_ [_IEEE_](https://ieeexplore.ieee.org/Xplore/home.jsp)_,_
 
 ### [My interview with Sage](#my-interview-with-sage)
 
-Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief
+**Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief**
+"I think most important is finding the problem that is important to solve for the community"
 
 <video controls poster="{{ 'images/video-thum.jpg' | relative_url }}">
   <source src="https://f12.cf.brightcove.com/3764097123001/3764097123001_5968267905001_5968265117001.mp4" type="video/mp4">
