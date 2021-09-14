@@ -102,7 +102,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_resources"
     sort: "title:asc"
     create: true
-    slug: "resources/{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
       - {
