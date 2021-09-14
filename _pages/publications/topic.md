@@ -28,11 +28,3 @@ You can also find my articles on my
 <!-- High Dimensional Statistics -->
 <h3  class="pubyear">Conferences/Workshops</h3>
 {% bibliography -f conferences %}
-
-<!-- Social Network Analysis -->
-<!-- <h3  class="pubyear">Social Network Analysis</h3> -->
-<!-- {% bibliography -f sna %} -->
-
-<!-- General Machine Learning -->
-<!-- <h3  class="pubyear">General Machine Learning</h3> -->
-<!-- {% bibliography -f gml %} -->
