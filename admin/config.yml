@@ -112,13 +112,6 @@ collections: # A list of collections the CMS should be able to edit
           tagname: "h1",
           required: true,
         }
-      - {
-          label: "Meta Description",
-          name: "mdescription",
-          widget: "text",
-          required: false,
-        }
-      - { label: "Permalink", name: "permalink", widget: "hidden" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - {
           label: "Show Author Profile",
