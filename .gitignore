@@ -1,3 +1,6 @@
+.DS_Store
+_bibliography/.DS_Store
+_pages/.DS_Store
 _site
 .sass-cache
 .jekyll-metadata
