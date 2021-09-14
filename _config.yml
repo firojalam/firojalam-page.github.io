@@ -101,10 +101,10 @@ collections:
     permalink: /:collection/:slug/
   resources:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:slug/
   research:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:slug/
   publications:
     output: true
 # Defaults
@@ -156,6 +156,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -164,6 +165,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-scholar
 
 # HTML Compression
 # - http://jch.penibelst.de/
