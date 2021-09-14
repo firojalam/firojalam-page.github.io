@@ -3,11 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/year/
 author_profile: true
-years: [2020, 2019, 2018, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2008]
+years: [2021,2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007]
 toc: true
-redirect_from:
-  - /publications.html
-  - /publications/
 ---
 
 <p>
