@@ -100,13 +100,13 @@ collections:
     output: true
     permalink: /:collection/:slug/
   resources:
-    output: false
+    output: true
     permalink: /:collection/:path/
   research:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
 # Defaults
 defaults:
   # _posts
@@ -124,6 +124,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "_resources" # we can not defile path /blog/index.html for pagination
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+
   # _publications
   - scope:
       path: "_publications"

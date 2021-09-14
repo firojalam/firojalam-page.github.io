@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /events/
+permalink: /news/
 title: "Community Service"
 author_profile: true
 redirect_from:
