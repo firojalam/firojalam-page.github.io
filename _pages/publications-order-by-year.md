@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publications/order-by-year
+permalink: /publications/bytopic/
 author_profile: true
 ---
 
