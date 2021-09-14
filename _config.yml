@@ -177,50 +177,27 @@ compress_html:
 
 
 
+  
+scholar:
+  style: apa
+  locale: en
 
+  sort_by: none
+  order: descending
 
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bibtemplate 
 
+  replace_strings: true
+  join_strings:    true
 
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
 
-
-
-
-# Site Author
-author:
-  name             : "Dr. Firoj Alam"
-  avatar           : "profile.png"
-  bio              : "Scientist, Qatar Computing Research Institute "
-  location         : "Doha, Qatar"
-  employer         :
-  pubmed           :
-  googlescholar    : "https://scholar.google.it/citations?user=j-RtwDQAAAAJ&hl=en&oi=ao"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Firoj-Alam"
-  uri              :
-  bitbucket        : 'firojalam'
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "firojalam"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : 'firoj-alam-0a96206'
-  orcid            :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "firojalam04"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  banglanlp        : 'https://banglanlp.org/our-team/'
-
+  repository: /publications
+  repository_file_delimiter: "." 
+  
+  query: "@*"
+ 
