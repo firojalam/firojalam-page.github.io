@@ -7,9 +7,9 @@ author_profile: true
 
 My contributions go to the development of AI systems in the field of Fake news/Disinformation ...
 
-**Research Interests:**
+** Research Interests: **
 
-*   **Machine Learning/Deep Learning:** Classical Algorithms (e.g., SVM, RF) to Deep Neural Network to solve supervised and semi-supervised problems.
+*   ** Machine Learning/Deep Learning:** Classical Algorithms (e.g., SVM, RF) to Deep Neural Network to solve supervised and semi-supervised problems.
 
 *   **Applicative Contexts:** Natural Language Processing, Behavioral and Social Signal Processing (Emotion, Personality traits) from Speech and Text; Social Media Text Analysis.
 
@@ -19,10 +19,28 @@ I received my PhD in Computer Science from the [University of Trento](https://ic
 <hr/>
 
 
+
 <!-- _**Find me here:**_ [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}) | [Google-Scholar]({{ site.author.googlescholar }}) | [Researchgate]({{ site.author.researchgate }}) | [Bitbucket](https://bitbucket.org/{{ site.author.bitbucket }}) | [github](https://github.com/{{ site.author.github }}) | [_Bangla NLP_]({{ site.author.banglanlp }}) -->
 
 _**Affliated member:**_ [_IEEE_](https://ieeexplore.ieee.org/Xplore/home.jsp)_,_ [_AAAI_](https://www.aaai.org/)_,_ [_ACM_](https://www.acm.org/)_,_ [_ISCA_](https://www.isca-speech.org/iscaweb/)_,_ [_AAAC_](https://emotion-research.net/)
 
+
+<hr/>
+
+## Recent News
+
+  <ul>
+  {% for post in site.posts limit:4 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+
+<hr/>
+
+## Recent Publications 
+
+{% bibliography -f book %}
 
 <hr/>
 
@@ -31,10 +49,10 @@ _**Affliated member:**_ [_IEEE_](https://ieeexplore.ieee.org/Xplore/home.jsp)_,_
 **Using Twitter and Applied Artificial Intelligence for Natural Disaster Relief**
 "I think most important is finding the problem that is important to solve for the community"
 
-<video controls poster="{{ 'images/video-thum.jpg' | relative_url }}">
+<!-- <video controls poster="{{  'images/video-thum.jpg' | relative_url }}">
   <source src="https://f12.cf.brightcove.com/3764097123001/3764097123001_5968267905001_5968265117001.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 > I think most important is finding the problem that is important to solve for the community
 
@@ -60,13 +78,13 @@ The Design of Computational models for Analyzing Personality and Affective Behav
 
 ### [Interesting Demos](#interesting-demos)
 
-<figure class="half">
-    <a href="#analysis-and-summarisation-of-spoken-conversations">
+<figure class="row">
+    <a class="col-md-6" href="#analysis-and-summarisation-of-spoken-conversations">
       <iframe width="500" height="269" src="https://www.youtube.com/embed/I_6gde2OfcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      Analysis and Summarisation of Spoken Conversations
+      <h3>Analysis and Summarisation of Spoken Conversations</h3>
     </a>
-    <a href="#analysis-and-summarization-of-social-media-conversations">
+    <a class="col-md-6" href="#analysis-and-summarization-of-social-media-conversations">
       <iframe width="500" height="269" src="https://www.youtube.com/embed/XIMP0cuiZIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      Analysis and Summarization of Social Media Conversations
+     <h3> Analysis and Summarization of Social Media Conversations</h3>
     </a>
 </figure>

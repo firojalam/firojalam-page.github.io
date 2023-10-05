@@ -5,9 +5,11 @@ citation: Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal
 info: This paper is about the number 3. The number 4 is left for future work.
 date: 2015-10-01
 venue: Journal 1
-title: Paper Title Number 3
+title: Personality and Affective Behaviors
 author_profile: true
 share: true
+thumb: ''
+weight: 3
 ---
 This paper is about the number 3. The number 4 is left for future work.
 

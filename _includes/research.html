@@ -1,0 +1,19 @@
+<div class="tab-teaser">
+    <div class="tab-menu">
+        <ul>
+            {% for item in site.research %}
+                <li>
+                    <a href="#" class="{% if item.weight == 1 %}active{% endif %}" data-rel="tab-{{ item.weight }}">{{ item.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="tab-main-box">
+        {% for item in site.research %}
+        <div class="tab-box {% if item.weight == 1 %}active{% endif %}" id="tab-{{ item.weight }}">
+            {{ item.content }}
+        </div>
+        {% endfor %}
+    </div>
+</div>

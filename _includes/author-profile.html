@@ -4,14 +4,14 @@
 
   {% if author.avatar %}
     <div class="author__avatar">
-      <a href="{{ author.home | default: '/' | absolute_url }}">
+      <a id="avatar" class="rounded-circle" href="{{ author.home | default: '/' | absolute_url }}">
         <img src="{{ author.avatar | relative_url }}" alt="{{ author.full_name }}" itemprop="image" class="u-photo">
       </a>
     </div>
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
+    <h3 class="site-title author__name p-name" itemprop="name">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.full_name }}</a>
     </h3>
     {% if author.bio %}
@@ -22,7 +22,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
+    <p class="btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</p>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
@@ -107,14 +107,6 @@
         <li>
           <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i><span class="label">Tumblr</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.bitbucket %}
-        <li>
-          <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
           </a>
         </li>
       {% endif %}
@@ -242,4 +234,10 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
+
+  <div class="twitter">
+    <a class="twitter-timeline" href="https://twitter.com/firojalam04?ref_src=twsrc%5Etfw"></a> 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  
 </div>
